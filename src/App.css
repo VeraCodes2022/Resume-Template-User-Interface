@@ -1,0 +1,173 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+input{
+  height: 20px;
+  width: 200px;
+}
+.container{ 
+  display: flex;
+  width: 76%;
+  margin: auto;
+  background-image: url('./');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.common{
+  display: flex;
+  flex-direction: column;
+}
+.common > h3 {
+  margin:20px 0;
+}
+hr{
+  height: 1px;
+  background-color: white;
+  margin: 20px 0;
+}
+.media{
+  margin: 10px;
+}
+.right{
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: auto;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.address{
+  flex-basis: 50%;
+}
+.workex,.education,.skilwrapper{
+  padding: 10px;
+  display: flex;
+}
+.column-1{
+  flex-basis: 40%;
+}
+.column-2{
+  flex-basis: 10%;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.col > li{
+ padding-bottom: 15px;
+}
+.line, .edu-line{
+  display: flex;
+  flex-direction: column;
+  width: 2px;
+  height:300px;
+  background-color: grey;
+  align-items: center;
+  justify-content: space-between;
+}
+.edu-line{
+  height:140px;
+}
+li >p {
+  margin-top: 6px;
+}
+.skilwrapper{
+  display: flex;
+}
+.skil-1,.skil-2{
+flex-basis: 50%;
+}
+.skil-1 >li,.skil-2>li{
+  padding: 5px 0;
+}
+.date{
+  display: flex;
+}
+.description{
+  width: 90%;
+  height:50px;
+}
+.showdate{
+  display: flex;
+}
+.showdate > p {
+  margin-right: 20px;
+}
+.close{
+  width: 12px;
+  height: 12px;
+  background-image: url('./images/close.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+}
+.add-work{
+  display: flex;
+  justify-content: space-between;
+}
+.add-icon{
+  width: 20px;
+  height: 20px;
+  background-image: url('./images/add.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-self: center;
+}
+.add-work > h4 {
+  align-self: center;
+}
+.close-btn{
+  width: 25px;
+  height: 25px;
+  background-image: url('./images/btn-close.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+}
+.hide{
+  display: none;
+}
+.profile-module,.work-module,.edu-module,.other-module,.refer-module{
+  padding: 10px;
+  background-color:rgb(171, 222, 171,0.5);
+}
+.edu-institu{
+  width: 350px;
+}
+.input-text{
+  display: flex;
+  flex-direction: column;
+}
+.major{
+  padding: 5px 0;
+}
+.add-btn{
+  width: 100px;
+  height: 20px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  background-color:rgb(55, 98, 55);
+}
+.block{
+ margin: 20px 0;  
+}
+.date, .refer{
+  display: flex;
+  flex-direction: column;
+}
+.results{
+  padding: 20px 0;
+}
+.unit{
+  margin:5px 0;
+}
